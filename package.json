@@ -11,9 +11,12 @@
   "author": "Juan David Porras Gómez",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "body-parser": "^1.20.3",
     "express": "^4.21.2",
     "mongoose": "^8.9.5",
-    "nodemon": "^3.1.9"
+    "mongoose-unique-validator": "^5.0.1",
+    "nodemon": "^3.1.9",
+    "underscore": "^1.13.7"
   }
 }

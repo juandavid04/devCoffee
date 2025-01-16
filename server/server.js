@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // ROUTES
-require('./routes/usuario');
+app.use(require('./routes/usuario'));
 
 // DATABASE
 require('./core/conexion');
